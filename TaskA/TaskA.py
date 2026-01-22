@@ -48,7 +48,6 @@ def main():
     print(f"Total price: {total:.2f} €")
 
     paid = bool(reservation.split('|')[6])
-    print(type(paid))
     print(f"Paid: {'Yes' if paid else 'No'}")
 
     location = reservation.split('|')[7]
