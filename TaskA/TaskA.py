@@ -45,7 +45,7 @@ def main():
     print(f"Hourly price: {hourly} €")
 
     total = numberOfHours*hourly
-    print(f"Total price: {total} €")
+    print(f"Total price: {total:.2f} €")
 
     paid = bool(reservation.split('|')[6])
     print(type(paid))
